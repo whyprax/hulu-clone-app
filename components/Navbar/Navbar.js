@@ -2,7 +2,7 @@ import requests from "../../utils/requests";
 
 const Navbar = () => {
   return (
-    <nav className="relative">
+    <nav className="relative mb-10">
       <div
         className="flex px-10 sm:px-10 text-xl whitespace-nowrap space-x-10 sm:space-x-20 overflow-x-scroll"
         style={{ scrollbarWidth: "none" }}
